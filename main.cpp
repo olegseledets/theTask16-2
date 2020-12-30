@@ -12,8 +12,7 @@ int main() {
   }
   else{
     for (int i = 0; i < price.size(); ++i){
-      totalCost += (price[i] * count[i]);
-      std::cout << totalCost << std::endl;
+      totalCost += price[count[i]];
     }
     std::cout << "Суммарная стоимость = " << totalCost;
   }
